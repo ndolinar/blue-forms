@@ -1,0 +1,226 @@
+body {
+    font-family: "Source Sans Pro";
+}
+
+.back {
+    height: 40px;
+    font-size: 12px;
+    background: #4a91cb;
+}
+
+.back p {
+    color: #fff;
+    line-height: 40px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.testing {
+    width: 80%;
+    margin: 50px auto 80px;
+}
+
+.testing h3 {
+    margin-bottom: 24px;
+    text-align: center;
+    padding-bottom: 12px;
+    color: #999;
+    font-weight: 300;
+}
+
+h3 span {
+    display: inline-block;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.option {
+    margin-left:20px;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.flat-input-group {
+    margin-bottom: 20px;
+    margin-top:  20px;
+}
+
+
+.flat-input-group .input-group-addon {
+    background: #fff;
+    border-width: 2px;
+    border-right: 0;
+    -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+    border-radius: 3px;
+}
+.flat-input-group .input-group-addon:not(:first-child):not(:last-child) {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.input-group-focus .input-group-addon {
+    border-color: #4a91cb;
+    color: #4a91cb;
+
+}
+
+.flat-input:focus::-webkit-input-placeholder { /* WebKit browsers */
+    color: #bdbdbd;
+}
+.flat-input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #bdbdbd;
+    opacity:  1;
+}
+.flat-input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #bdbdbd;
+    opacity:  1;
+}
+.flat-input:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #bdbdbd;
+}
+
+.flat-input {
+    border-left: 0;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    border-width: 2px;
+    height: 50px;
+
+}
+
+.flat-textarea {
+    border-width: 2px;
+    resize: none;
+    border-radius: 3px;
+    border-color: #ccc;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.flat-textarea:focus {
+    border-color: #4a91cb;
+    box-shadow: none;
+    outline: 0;
+    -webkit-transition: border-color ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s;
+    transition: border-color ease-in-out .15s;
+}
+
+
+
+.flat-input-group label {
+    display: none;
+}
+
+.flat-input:focus {
+    box-shadow: none;
+    border-color: #4a91cb;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    position: absolute;
+    top:0;
+    opacity:0;
+}
+
+
+
+.checkbox_btn, .radio_btn {
+    position: relative;
+    margin-right: 2px;
+    background: white;
+    display: inline-block;
+    border: 2px solid #b5c1c7;
+    border: 2px solid #d4d7da;
+    height: 23px;
+    width: 23px;
+    top: 6px;
+
+    border-radius: 3px;
+    outline: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.radio_btn {
+    border-radius: 20px;
+}
+
+.radio_selected {
+    position: relative;
+    border-color: #4a91cb;
+}
+.radio_selected:before {
+    position: absolute;
+    display: block;
+    content: '';
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    background: #4a91cb;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+.checkbox_selected {
+    position: relative;
+    background: #4a91cb;
+    border-color: #4a91cb;
+}
+.checkbox_selected:before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 6px;
+    left: 5px;
+    width: 6px;
+    height: 3px;
+    border: solid #fff;
+    box-sizing: content-box;
+
+    border-width: 0 0 3px 3px;
+
+    border-width: 0 0 3px 3px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.flat-button-wrap {
+    text-align: center;
+    margin-top: 30px;
+}
+.flat-button {
+    border: 2px solid #4a91cb;
+    color: #fff;
+    border-radius: 31px;
+    padding: 15px 30px;
+    background: #4a91cb;
+
+    -webkit-transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -moz-transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -ms-transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    -o-transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: background 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+}
+
+.flat-button:hover, .flat-button:focus {
+    background: #376892;
+    border: 2px solid #376892;
+    color: #fff;
+    text-decoration: none;
+}
